@@ -1,0 +1,19 @@
+{
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporters",
+        {
+          "pageTitle": "Test Report"
+        }
+      ]
+    ],
+  
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**",
+      "!**/dont-implement/**"
+    ]
+  }
+  
